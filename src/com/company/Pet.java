@@ -4,6 +4,12 @@ public class Pet {
     private String name;
     private String animal;
     private int age;
+    
+     public Pet(String name, String animal, int age) {
+        setName(name);
+        setAnimal(animal);
+        setAge(age);
+    }
 
     public Pet() {
 
